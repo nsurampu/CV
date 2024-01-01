@@ -68,7 +68,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Microsoft",
-      // link: "https://parabol.co",
+      link: "https://www.microsoft.com/",
       badges: ["FullStack", "ML", "Android", "React", "Tensorflow"],
       title: "Software Development Engineer",
       // logo: MicrosoftLogo,
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Nvidia",
-      // link: "https://clevertech.biz",
+      link: "https://www.nvidia.com/en-us/",
       badges: ["CuDA", "C++"],
       title: "Software Development Intern",
       // logo: ClevertechLogo,
@@ -96,7 +96,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Kaamyapp",
-      // link: "https://bsgroup.eu/",
+      link: "https://www.linkedin.com/company/kaamyapp/?originalSubdomain=in",
       badges: ["React", "Android", "Spring Boot"],
       title: "Founding Engineer",
       logo: JojoMobileLogo,
@@ -108,7 +108,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Apkirai",
-      // link: "https://www.nokia.com",
+      link: "https://www.google.com",
       badges: [],
       title: "Co-Founder",
       logo: NSNLogo,
