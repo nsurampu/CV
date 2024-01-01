@@ -144,10 +144,10 @@ export const RESUME_DATA = {
       ],
       description: "Building an LLM system for improved reasoning",
       logo: ConsultlyLogo,
-      // link: {
-      //   label: "consultly.com",
-      //   href: "https://consultly.com/",
-      // },
+      link: {
+        label: "https://www.leedokyun.com/",
+        href: "https://www.leedokyun.com/",
+      },
     },
     {
       title: "Prof Peter Jansen - AutoML with CuDA",
@@ -155,12 +155,12 @@ export const RESUME_DATA = {
         "Langchain",
         "Llama 2",
       ],
-      description: "Built a GPU based algorithm in CuDA that works to evolve interpretable programs that solve natural language processing tasks. ",
+      description: "Built a GPU based algorithm in CuDA that works to evolve interpretable programs that solve NLP tasks.",
       logo: ConsultlyLogo,
-      // link: {
-      //   label: "consultly.com",
-      //   href: "https://consultly.com/",
-      // },
+      link: {
+        label: "https://ischool.arizona.edu/person/peter-jansen",
+        href: "https://ischool.arizona.edu/person/peter-jansen",
+      },
     },
   ],
   projects: [
