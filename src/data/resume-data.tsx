@@ -20,98 +20,148 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Chandrahas Aroori",
+  initials: "CA",
+  location: "Boston, MA, USA",
+  locationLink: "https://www.google.com/maps/place/Boston",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Masters in AI @ BU | ex-Microsoft, ex-Nvidia",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Building the future of AI with LLMs",
+  avatarUrl: "https://avatars.githubusercontent.com/u/20578676?s=400&u=66099b9b666699230e3bca1d19808c913a603454&v=4",
+  personalWebsiteUrl: "https://exorust.github.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "charoori@bu.edu",
+    tel: "+16172560885",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Exorust",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/chandrahas-aroori/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/charoori_ai",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Boston University",
+      degree: "Master's Degree in Artificial Intelligence",
+      start: "2023",
+      end: "Present",
+    },
+    {
+      school: "Birla Institute of Technology and Science, Pilani",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2016",
+      end: "2020",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Microsoft",
+      // link: "https://parabol.co",
+      badges: ["FullStack", "ML", "Android", "React", "Tensorflow"],
+      title: "Software Development Engineer",
+      // logo: MicrosoftLogo,
+      start: "2020",
+      end: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        `• Built multiple ML systems to augment existing Microsoft Products: \
+      •	Picture to tasks: Takes any picture of like a recipe & converts it into a list of tasks using ResNet chained to BERT \n\
+      •	Discover Feed: Created a smart feed of possible actionable tasks by extracting information from Emails & Teams messages to using Hidden Markov Models \n\
+      •	Autosuggest Tasks: Based on users previous grocery lists, it suggests new grocery items via statistical models \n\
+      •	Autocategorize Tasks: Automatically sort various items in grocery lists into categories like(fresh produce, meat, etc) \n\
+      •	NLP identification of Date / Time: Identify Dates & Times in various tasks & then enable reminders`
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "Nvidia",
+      // link: "https://clevertech.biz",
+      badges: ["CuDA", "C++"],
+      title: "Software Development Intern",
+      // logo: ClevertechLogo,
+      start: "2020",
+      end: "2020",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "• Improved HDMI I2C function callback in graphics driver which controls HDMI connection to GPU. \n\
+      •	Enhanced the powercfg utility library to facilitate comprehensive testing of GPU performance in relation to power"
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Kaamyapp",
+      // link: "https://bsgroup.eu/",
+      badges: ["React", "Android", "Spring Boot"],
+      title: "Founding Engineer",
       logo: JojoMobileLogo,
       start: "2012",
       end: "2015",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "• Engineered a Mobile-First Platform with a scalable backend infrastructure designed to accommodate the needs of 1 million users \n\
+      •	Application was built in Android & Spring Boot with Hibernate ORM"
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Apkirai",
+      // link: "https://www.nokia.com",
       badges: [],
-      title: "C/C++ Developer",
+      title: "Co-Founder",
       logo: NSNLogo,
       start: "2010",
       end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      description: "•	Engineered a drag & drop application platform for medical pathway provider to define medical treatment pathways. \n\
+      •	Application was built in React & Spring Boot",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "PyTorch",
+    "CUDA",
+    "Pytorch-Lightning",
+    "FastAPI",
+    "Langchain",
+    "Azure ML",
+    "Llama.cpp",
+    "Pinecone",
+    "HuggingFace",
+    "LlamaIndex",
+    "Docker",
+    "LLM",
+    "ReactJS",
+    "Android",
+    "Spring Boot"
+  ],
+  researchprojects: [
+    {
+      title: "Prof Dokyn Lee - LLM Reasoning",
+      techStack: [
+        "Langchain",
+        "Llama 2",
+      ],
+      description: "Building an LLM system for improved reasoning",
+      logo: ConsultlyLogo,
+      // link: {
+      //   label: "consultly.com",
+      //   href: "https://consultly.com/",
+      // },
+    },
+    {
+      title: "Prof Peter Jansen - AutoML with CuDA",
+      techStack: [
+        "Langchain",
+        "Llama 2",
+      ],
+      description: "Built a GPU based algorithm in CuDA that works to evolve interpretable programs that solve natural language processing tasks. ",
+      logo: ConsultlyLogo,
+      // link: {
+      //   label: "consultly.com",
+      //   href: "https://consultly.com/",
+      // },
+    },
   ],
   projects: [
     {
@@ -130,149 +180,6 @@ export const RESUME_DATA = {
         label: "consultly.com",
         href: "https://consultly.com/",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
