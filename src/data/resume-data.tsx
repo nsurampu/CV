@@ -91,8 +91,8 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2020",
       description:
-        "• Improved HDMI I2C function callback in graphics driver which controls HDMI connection to GPU. \n\
-      •	Enhanced the powercfg utility library to facilitate comprehensive testing of GPU performance in relation to power"
+        "•	Improved HDMI I2C function callback in graphics driver which controls HDMI connection to GPU.\n\
+        •	Enhanced the powercfg utility library to facilitate comprehensive testing of GPU power performance."
     },
     {
       company: "Kaamyapp",
@@ -103,26 +103,24 @@ export const RESUME_DATA = {
       start: "2012",
       end: "2015",
       description:
-        "• Engineered a Mobile-First Platform with a scalable backend infrastructure designed to accommodate the needs of 1 million users \n\
-      •	Application was built in Android & Spring Boot with Hibernate ORM"
+        "• Created a Mobile-First Platform with a scalable backend infrastructure, supporting up to 1 million users, featuring an Android app frontend and utilizing Spring Boot, Hibernate, and MySQL for the backend."
     },
     {
-      company: "Apkirai",
+      company: "JourneyLabs",
       link: "https://www.google.com",
       badges: [],
       title: "Co-Founder",
       logo: NSNLogo,
       start: "2010",
       end: "2012",
-      description: "•	Engineered a drag & drop application platform for medical pathway provider to define medical treatment pathways. \n\
-      •	Application was built in React & Spring Boot",
+      description: "•	Developed a drag & drop application platform for medical pathway providers, utilizing an Android app for the front-end and implementing the backend with Spring Boot, Hibernate, and MySQL.",
     },
   ],
   skills: [
     "PyTorch",
     "CUDA",
     "Pytorch-Lightning",
-    "FastAPI",
+    "FastAI",
     "Langchain",
     "Azure ML",
     "Llama.cpp",
@@ -142,7 +140,7 @@ export const RESUME_DATA = {
         "Langchain",
         "Llama 2",
       ],
-      description: "Building an LLM system for improved reasoning",
+      description: "•	Developing an LLM (Large Language Model) system to enhance reasoning capabilities, incorporating Agentic LLMs.",
       logo: ConsultlyLogo,
       link: {
         label: "https://www.leedokyun.com/",
@@ -152,8 +150,8 @@ export const RESUME_DATA = {
     {
       title: "Prof Peter Jansen - AutoML with CuDA",
       techStack: [
-        "Langchain",
-        "Llama 2",
+        "CuDA",
+        "C++",
       ],
       description: "Built a GPU based algorithm in CuDA that works to evolve interpretable programs that solve NLP tasks.",
       logo: ConsultlyLogo,
@@ -165,20 +163,36 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "LLM Movie Recommender",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Mistral",
+        "Finetuning",
+        "LoRA",
+        "PEFT",
+        "PyTorch",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Built a movie recommendation chatbot that tailors suggestions based on user preferences by finetuning Mixtral LLM on the IMDB dataset.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "LLM Movie Recommender",
+        href: "https://github.com/Exorust/LLM-movie-recommender/",
+      },
+    },
+    {
+      title: "Interactive Medical Education LLM Chatbot",
+      techStack: [
+        "Side Project",
+        "Mistral",
+        "ChromaDB",
+        "RAG",
+        "PyTorch",
+      ],
+      description: "Created an interactive Medical RAG(Retrieval Augmented Generation) study LLM, letting med students quiz themselves using textbooks. Set up a vector database, smoothly linking textbook info to a Llama 2 for a unique learning experience.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Interactive Medical Education LLM Chatbot",
+        href: "https://github.com/Exorust/Interactive-Medical-Education-LLM-Chatbot",
       },
     },
   ],
