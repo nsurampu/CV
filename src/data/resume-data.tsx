@@ -75,12 +75,12 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2023",
       description:
-        `• Built multiple ML systems to augment existing Microsoft Products: \
-      •	Picture to tasks: Takes any picture of like a recipe & converts it into a list of tasks using ResNet chained to BERT \n\
-      •	Discover Feed: Created a smart feed of possible actionable tasks by extracting information from Emails & Teams messages to using Hidden Markov Models \n\
-      •	Autosuggest Tasks: Based on users previous grocery lists, it suggests new grocery items via statistical models \n\
-      •	Autocategorize Tasks: Automatically sort various items in grocery lists into categories like(fresh produce, meat, etc) \n\
-      •	NLP identification of Date / Time: Identify Dates & Times in various tasks & then enable reminders`
+        "Developed and deployed multiple Machine Learning systems in the MMX Intelligence Team for various Microsoft Products (Microsoft ToDo, Planner & Project). \n\
+        • Engineered the “Picture to Tasks” feature, leveraging ResNet and BERT models to analyze images, and convert them into a detailed list of actionable tasks. Achieved 78% accuracy in picture to Task translation. \n\
+        • Lead the creation of “Discover Feed”, a dynamic smart feed that extracts actionable tasks from Emails and Teams messages using Hidden Markov Models. Contributed a 20% increase in user engagement with suggested tasks. \n\
+        • Lead developer for “Autosuggest Tasks” functionality, employing statistical models to analyze users' historical lists and provide personalized suggestions for new items. Contributed to a 25% boost in Task Creation. \n\
+        • Lead developer for “Autocategorize Tasks” feature, implementing NLP similarity models to automatically categorize various items enhancing user organization. Reduced manual categorization efforts by 35%. \n\
+        ",
     },
     {
       company: "Nvidia",
