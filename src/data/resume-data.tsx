@@ -163,6 +163,23 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Large Language Model Cookbook",
+      techStack: [
+        "Side Project",
+        "LLM",
+        "Finetuning",
+        "RAG",
+        "HuggingFace",
+        "PyTorch",
+      ],
+      description: "A cookbook detailing the best ways to build, utilize, & deploy large language models for a wide range of applications",
+      logo: ConsultlyLogo,
+      link: {
+        label: "LLM Cookbook",
+        href: "https://github.com/Exorust/LLM-Cookbook",
+      },
+    },
+    {
       title: "LLM Movie Recommender",
       techStack: [
         "Side Project",
