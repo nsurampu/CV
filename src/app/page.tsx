@@ -47,18 +47,6 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="h-8 w-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="h-4 w-4" />
-                  </a>
-                </Button>
-              ) : null}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -79,18 +67,14 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
-                </a>
-              ) : null}
             </div>
           </div>
 
-          <Avatar className="h-28 w-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+        <Avatar className="h-28 w-28">
+          <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+          <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+        </Avatar>
+
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
@@ -185,7 +169,7 @@ export default function Page() {
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">Certifications</h2>
           <div className="-mx-3 grid grid-cols-1 gap-4 print:grid-cols-2 print:gap-3 md:grid-cols-2 lg:grid-cols-2">
             {RESUME_DATA.projects.map((project) => {
               return (

@@ -20,197 +20,173 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Chandrahas Aroori",
-  initials: "CA",
-  location: "Boston, MA, USA",
-  locationLink: "https://www.google.com/maps/place/Boston",
+  name: "Naren Surampudi",
+  initials: "NS",
+  location: "Pune, MH, India",
+  locationLink: "https://www.google.com/maps/place/Pune",
   about:
-    "Masters in AI @ BU | ex-Microsoft, ex-Nvidia",
+    "Data @ HSBC | OMSCS @ Georgia Tech",
   summary:
-    "Building the future of AI with LLMs",
-  avatarUrl: "https://avatars.githubusercontent.com/u/20578676?s=400&u=66099b9b666699230e3bca1d19808c913a603454&v=4",
-  personalWebsiteUrl: "https://exorust.github.io",
+    "Harnessing the power of Data to drive Business Impact",
+  personalWebsiteUrl: "",
+  avatarUrl: "https://github.com/nsurampu/Portfolio/blob/main/images/1601389601409.jpeg?raw=true",
   contact: {
-    email: "charoori@bu.edu",
-    tel: "+16172560885",
+    email: "naren.surampudi@outlook.com",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/Exorust",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/chandrahas-aroori/",
+        url: "https://www.linkedin.com/in/naren-surampudi/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/charoori_ai",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Boston University",
-      degree: "Master's Degree in Artificial Intelligence",
-      start: "2023",
-      end: "Present",
+      school: "Georgia Tech",
+      degree: "Master's Degree in Computer Science",
+      start: "2022",
+      end: "2024",
     },
     {
       school: "Birla Institute of Technology and Science, Pilani",
-      degree: "Bachelor's Degree in Computer Science",
+      degree: "Bachelor's Degree in Electronics & Communications Engineering",
       start: "2016",
       end: "2020",
     },
   ],
   work: [
     {
-      company: "Microsoft",
-      link: "https://www.microsoft.com/",
-      badges: ["FullStack", "ML", "Android", "React", "Tensorflow"],
-      title: "Software Development Engineer",
-      // logo: MicrosoftLogo,
-      start: "2020",
-      end: "2023",
+      company: "HSBC",
+      link: "https://www.hsbc.com/",
+      badges: ["ML", "Python", "Tensorflow", "PowerBI", "Dagster", "Stakeholder Management"],
+      title: "Consultant Specialist (Data & Analytics Engineering)",
+      start: "2023",
+      end: "Present",
       description:
-        "Developed and deployed multiple Machine Learning systems in the MMX Intelligence Team for various Microsoft Products (Microsoft ToDo, Planner & Project). \n\
-        • Engineered the “Picture to Tasks” feature, leveraging ResNet and BERT models to analyze images, and convert them into a detailed list of actionable tasks. Achieved 78% accuracy in picture to Task translation. \n\
-        • Lead the creation of “Discover Feed”, a dynamic smart feed that extracts actionable tasks from Emails and Teams messages using Hidden Markov Models. Contributed a 20% increase in user engagement with suggested tasks. \n\
-        • Lead developer for “Autosuggest Tasks” functionality, employing statistical models to analyze users' historical lists and provide personalized suggestions for new items. Contributed to a 25% boost in Task Creation. \n\
-        • Lead developer for “Autocategorize Tasks” feature, implementing NLP similarity models to automatically categorize various items enhancing user organization. Reduced manual categorization efforts by 35%. \n\
+       "• Lead the design of risk frameworks for the Service Sustainability Program that efficiently drive $100mil+ global budget annually and improve service resilience. \n\
+        • Proposed and lead the design and implementation of automated Dagster pipelines and PowerBI dashboards for Wealth & Personal Banking Risk & Resilience, automating reporting and reducing time to reporting by 80%. \n\
+        • Lead developer for new Jira data maintenance tooling, empowering data owners to actively maintain data, reducing data maintenance effort by 70%. \n\
+        • Pioneered the usage of advanced data practices across teams, reducing data process and reporting times by 25% \n\
+        • Mentored new graduates with hand-on guidance to build up data talent within the team \n\
         ",
     },
     {
-      company: "Nvidia",
-      link: "https://www.nvidia.com/en-us/",
-      badges: ["CuDA", "C++"],
-      title: "Software Development Intern",
-      // logo: ClevertechLogo,
-      start: "2020",
-      end: "2020",
-      description:
-        "•	Improved HDMI I2C function callback in graphics driver which controls HDMI connection to GPU.\n\
-        •	Enhanced the powercfg utility library to facilitate comprehensive testing of GPU power performance."
-    },
-    {
-      company: "Kaamyapp",
-      link: "https://www.linkedin.com/company/kaamyapp/?originalSubdomain=in",
-      badges: ["React", "Android", "Spring Boot"],
-      title: "Founding Engineer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "• Created a Mobile-First Platform with a scalable backend infrastructure, supporting up to 1 million users, featuring an Android app frontend and utilizing Spring Boot, Hibernate, and MySQL for the backend."
-    },
-    {
-      company: "JourneyLabs",
-      link: "https://www.google.com",
+      company: "HSBC",
+      link: "https://www.hsbc.com/",
       badges: [],
-      title: "Co-Founder",
+      title: "Senior Software Engineer (Data & Machine Learning)",
+      start: "2020",
+      end: "2023",
+      description:
+       "• Joined as part of Global Graduate Programme \n\
+        • Worked on a Self-service Analytics platform offering multiple advanced analytics options such as Time-series Forecasting, Topic Analysis and Exploratory Analysis Reporting, increasing adoption of advanced analytics in teams by 60% \n\
+        • Supported the development of machine learning models for the CARE ecosystem for change risk prediction, reducing failed changes and downtime in teams by 40%. \n\
+        • Lead the development of incident and outage forecasting models for the HOOP platform, reducing outages in teams by 30%. \n\
+       ",
+    },
+    {
+      company: "Reflexis Systems",
+      link: "https://www.google.com",
+      badges: ["Python", "Deep Learning", "Tensorflow", "NLP"],
+      title: "Data Science Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "•	Developed a drag & drop application platform for medical pathway providers, utilizing an Android app for the front-end and implementing the backend with Spring Boot, Hibernate, and MySQL.",
+      start: "2019",
+      end: "2019",
+      description: "•	Prototyped a new NLP usecase for improving retail campaigning efficiency which was showcased to executive stakeholders \n\
+      •	Aided in development of deep learning models using GRUs and ResNets for aiding in better workforce management \n\
+      ",
     },
   ],
   skills: [
+    "Python",
+    "Tensorflow",
     "PyTorch",
-    "CUDA",
-    "Pytorch-Lightning",
-    "FastAI",
+    "SQL",
+    "PowerBI",
+    "Dagster",
+    "Streamlit",
     "Langchain",
-    "Azure ML",
-    "Llama.cpp",
-    "Pinecone",
-    "HuggingFace",
-    "LlamaIndex",
+    "Azure",
+    "DuckDB",
     "Docker",
-    "LLM",
-    "ReactJS",
-    "Android",
-    "Spring Boot"
+    "Git",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Mining",
+    "Information Retrieval",
+    "Natural Language"
   ],
   researchprojects: [
     {
-      title: "Prof Dokyn Lee - LLM Reasoning",
+      title: "Prof Sudha Radhika: Web/ML-based Machine Fault Monitoring",
       techStack: [
-        "Langchain",
-        "Llama 2",
+        "Python",
+        "Android",
       ],
-      description: "•	Developing an LLM (Large Language Model) system to enhance reasoning capabilities, incorporating Agentic LLMs.",
+      description: "Focuses on the identification of faults in wind turbines, aiming to identify them in the early stages to reduce both maintenance times and costs. The process uses machine learning to identify fault stages, and the results are presented on a web dashboard and Android app to allow for remote monitoring.",
       logo: ConsultlyLogo,
       link: {
-        label: "https://www.leedokyun.com/",
-        href: "https://www.leedokyun.com/",
+        label: "https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2020/84669/V014T14A009/1099557",
+        href: "https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2020/84669/V014T14A009/1099557",
       },
     },
     {
-      title: "Prof Peter Jansen - AutoML with CuDA",
+      title: "Prof David Joyner: Student Course Feedback Prediction",
       techStack: [
-        "CuDA",
-        "C++",
+        "Python",
+        "Machine Learning",
+        "Software Prototyping"
       ],
-      description: "Built a GPU based algorithm in CuDA that works to evolve interpretable programs that solve NLP tasks.",
+      description: "Proposed a system for predicting course feedback before the changes to a live course are finalized, helping instructors stay informed of how their changes might be received based on previous cohorts of the course, provide a check where the instructors can decide which changes they would like to go ahead. and help create better learning experiences for students",
       logo: ConsultlyLogo,
       link: {
-        label: "https://ischool.arizona.edu/person/peter-jansen",
-        href: "https://ischool.arizona.edu/person/peter-jansen",
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Dr Jabez Christopher: ML-based Audio Event Identification",
+      techStack: [
+        "Python",
+        "Machine Learning",
+        "Audio Processing"
+      ],
+      description: "Focuses on using digital signal processing techniques to analyze and extract audio features and use them to predict the type of event that might have taken place in an audio signal using supervised machine learning approaches",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://ieeexplore.ieee.org/document/8971574",
+        href: "https://ieeexplore.ieee.org/document/8971574",
       },
     },
   ],
+
   projects: [
     {
-      title: "Large Language Model Cookbook",
+      title: "Microsoft Certified: Power BI Data Analyst Associate",
       techStack: [
-        "Side Project",
-        "LLM",
-        "Finetuning",
-        "RAG",
-        "HuggingFace",
-        "PyTorch",
+        "PowerBI",
+        "Analytics"
       ],
-      description: "A cookbook detailing the best ways to build, utilize, & deploy large language models for a wide range of applications",
+      description: "Intermediate level certificate exam (PL-300) that tests methods and best practices that align with business and technical requirements for modeling, visualizing, and analyzing data with Microsoft Power BI",
       logo: ConsultlyLogo,
       link: {
-        label: "LLM Cookbook",
-        href: "https://github.com/Exorust/LLM-Cookbook",
+        label: "PowerBI Certificate",
+        href: "https://learn.microsoft.com/en-us/users/naren-8360/credentials/76506a8fd0791f6b?ref=https%3A%2F%2Fwww.linkedin.com%2F",
       },
     },
     {
-      title: "LLM Movie Recommender",
+      title: "Tensorflow Developer Certification",
       techStack: [
-        "Side Project",
-        "Mistral",
-        "Finetuning",
-        "LoRA",
-        "PEFT",
-        "PyTorch",
+        "Tensorflow",
+        "Deep Learning"
       ],
-      description: "Built a movie recommendation chatbot that tailors suggestions based on user preferences by finetuning Mixtral LLM on the IMDB dataset.",
+      description: "Level one certificate exam that tests a developers foundational knowledge of integrating machine learning into tools and applications using Tensorflow",
       logo: ConsultlyLogo,
       link: {
-        label: "LLM Movie Recommender",
-        href: "https://github.com/Exorust/LLM-movie-recommender/",
-      },
-    },
-    {
-      title: "Interactive Medical Education LLM Chatbot",
-      techStack: [
-        "Side Project",
-        "Mistral",
-        "ChromaDB",
-        "RAG",
-        "PyTorch",
-      ],
-      description: "Created an interactive Medical RAG(Retrieval Augmented Generation) study LLM, letting med students quiz themselves using textbooks. Set up a vector database, smoothly linking textbook info to a Llama 2 for a unique learning experience.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Interactive Medical Education LLM Chatbot",
-        href: "https://github.com/Exorust/Interactive-Medical-Education-LLM-Chatbot",
+        label: "Tensorflow Certification",
+        href: "https://www.credential.net/19c27cf9-0ac8-4c40-bbac-725e84df75e3",
       },
     },
   ],
+
 } as const;
