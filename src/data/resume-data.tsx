@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Data @ HSBC | OMSCS @ Georgia Tech",
   summary:
-    "Harnessing the power of Data to drive Business Impact",
+    "Harnessing the power of Data to drive Business Impact through actionable insights using Machine Learning and Advanced Analytics",
   personalWebsiteUrl: "",
   avatarUrl: "https://github.com/nsurampu/Portfolio/blob/main/images/1601389601409.jpeg?raw=true",
   contact: {
@@ -59,7 +59,7 @@ export const RESUME_DATA = {
       company: "HSBC",
       link: "https://www.hsbc.com/",
       badges: ["ML", "Python", "Tensorflow", "PowerBI", "Dagster", "Stakeholder Management"],
-      title: "Consultant Specialist (Data & Analytics Engineering)",
+      title: "Consultant Specialist (Data Science & Analytics Engineering)",
       start: "2023",
       end: "Present",
       description:
